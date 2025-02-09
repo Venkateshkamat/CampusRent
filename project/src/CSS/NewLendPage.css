@@ -1,0 +1,125 @@
+.new-lend-page {
+  font-family: Arial, sans-serif;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cancel-button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  left: 0; /* Align to the left of the container */
+}
+
+.page-title {
+  font-size: 28px;
+  text-align: center;
+  flex-grow: 1; /* Allows it to occupy the center */
+}
+
+.form-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  width: 90%;
+  margin-top: 8%;
+  margin-left: 5%;
+}
+
+.image-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.image-button {
+  background-color: white;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.image-uploader {
+  width: 150px;
+  height: 150px;
+  border: 2px dashed gray;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.fields-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 70%;
+}
+
+.row-group {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.input-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-field {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.submit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: inline-block;
+}
+
+.button-row {
+  display: flex; /* Use flexbox to align items */
+  justify-content: center; /* Center the buttons horizontally */
+  gap: 20px; /* Add space between the buttons */
+  margin-top: 20px; /* Add some spacing at the top */
+}
+
+.submit-button {
+  padding: 10px 20px; /* Add padding for a better button size */
+  font-size: 16px; /* Adjust the font size */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Add rounded corners */
+  background-color: #f9a825; /* Button background color */
+  color: white; /* Button text color */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.submit-button:hover {
+  background-color: #f9a825; /* Darker shade on hover */
+}

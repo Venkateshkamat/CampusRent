@@ -1,0 +1,136 @@
+.item-detail-container {
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+}
+
+.item-title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.item-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.item-details {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-placeholder {
+    width: 150px;
+    height: 150px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.slider-button {
+    background: #eee;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.item-info p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.item-info a {
+    color: blue;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.owner-details {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contact-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.owner-header {
+    display: flex;
+    align-items: center;
+}
+
+.owner-image {
+    width: 60px;
+    height: 60px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.owner-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.rating {
+    color: #ffa500;
+    font-size: 14px;
+}
+
+.contact-info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.icons {
+    font-size: 20px;
+    display: inline-flex;
+    gap: 10px;
+    vertical-align: middle;
+    margin-left: 2%;
+}
+
+.reserve-button {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    width: 50%;
+    margin: 20px auto 0;
+}
